@@ -24,7 +24,7 @@ public class Database_Full_Table
 			{
 				for (int i = 1; i<=columnsNumber; i++)
 				{
-					System.out.print(rs.getString(i) + "||");
+					System.out.print(rs.getString(i) + "|");
 				}
 				System.out.println();
 			}
